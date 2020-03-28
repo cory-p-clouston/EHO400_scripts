@@ -5,24 +5,24 @@ An Arduino Mega-based project for monitoring of a controlled environment lab.
 
 # Summary
 
-This project used several components (sensors, shields, etc) and we tested them individually / using different combinaisons.  It seemed like a waste not to share those scripts with everyone :) . 
+This project used several components (sensors, shields, etc) and we tested them individually / using different combinaisons.  It seemed like a waste not to share those scripts with everyone :smile: . 
 
 The different sensors, boards, shields, features tested: 
 
 	1. Temperature sensor DS18B20
-	1. Humidity and temperature sensor SHT30-D
-	1. CO2 sensor T6713
-	1. Ethernet shield (inc. SD card and ISP breakout)
-	1. Relay board DFR0144
-	1. Current Sensor INA219
-	1. Current probe SCT013
-	1. Sending data to ThingSpeak
-	1. 3x 12V-pumps
-	1. Sending data to thingskeap
-	1. Saving data to SD card
-	1. Webserver to get the file from the SD card
-	1. Using NTP for time stamps
-	1. Integrating everything together.
+	2. Humidity and temperature sensor SHT30-D
+	3. CO2 sensor T6713
+	4. Ethernet shield (inc. SD card and ISP breakout)
+	5. Relay board DFR0144
+	6. Current Sensor INA219
+	7. Current probe SCT013
+	8. Sending data to ThingSpeak
+	9. 3x 12V-pumps
+	10. Sending data to thingskeap
+	11. Saving data to SD card
+	12. Webserver to get the file from the SD card
+	13. Using NTP for time stamps
+	14. Integrating everything together.
 
 The excel file shows the conclusions from the different tests. 
 
