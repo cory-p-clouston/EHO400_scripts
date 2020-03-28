@@ -16,5 +16,6 @@ The key features are:
 
 ** Simply to allow us to do spot check on the behaviour of the system, to make sure everything is running smoothly.
 
-Total budget: 400$ Duration of the monitoring: 6 months
+Total budget: 400$ 
+Duration of the monitoring: 6 months
 
