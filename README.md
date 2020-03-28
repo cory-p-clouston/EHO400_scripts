@@ -1,23 +1,33 @@
 # EHO400
-An Arduino Mega-based project for monitoring of a mushroom growing lab.
+An Arduino Mega-based project for monitoring of a controlled environment lab.
 
-![Picture of EHO400](/Photos/IMG_0078.JPG)
+![Picture of EHO400](/Pictures/EHO400.JPG)
 
-The key features are:
-    
-    Monitoring of temperature (DS18B20)
-    Monitoring of humidity (SHT30-D)
-    Monitoring of CO2 (T6713)
-    All the data are saved on an SD Card, which is on an Ethernet shield
-    The file saved can be downloaded remotely.
-    The system controls 3 12V-pumps using DFR0144 board*
-    Using a current sensor to validate the pumps started (INA219).
-    The Arduino MEGA sends part of the data on ThingSpeak**
+# Summary
 
-*we have only one CO2 sensor but we need to monitoring the in-take and the out-take of the room + outside for the calibration of the sensor. 
+This project used several components (sensors, shields, etc) and we tested them individually / using different combinaisons.  It seemed like a waste not to share those scripts with everyone :) . 
 
-** Simply to allow us to do spot check on the behaviour of the system, to make sure everything is running smoothly.
+The different sensors, boards, shields, features tested: 
 
-Total budget: 400$ 
-Duration of the monitoring: 6 months
+1. Temperature sensor DS18B20
+1. Humidity and temperature sensor SHT30-D
+1. CO2 sensor T6713
+1. Ethernet shield (inc. SD card and ISP breakout)
+1. Relay board DFR0144
+1. Current Sensor INA219
+1. Current probe SCT013
+1. Sending data to ThingSpeak
+1. 3x 12V-pumps
+1. Sending data to thingskeap
+1. Saving data to SD card
+1. Integrating everything together.
 
+The excel file shows the conclusions from the different tests. 
+
+Some things to keep in mind:
+* We had to upgrade from an Arduino UNO to an Arduino MEGA because the UNO did not have enough memory space for the program.
+* We had to use an Ethernet shield with an ISP breakout because there were many pins conflicts with the DFR0144 shield.
+* Even with the point above, we still had one pin in conflict between two boards (D10). Watch out for that if you stack shields.
+
+
+We hope it will help you for your projects! 
