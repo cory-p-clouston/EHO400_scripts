@@ -1,7 +1,7 @@
 # EHO400
 An Arduino Mega-based project for monitoring of a controlled environment lab.
 
-![Picture of EHO400](/Pictures/EHO400.JPG)
+![Picture of EHO400](/Pictures/EHO400.png)
 
 # Summary
 
@@ -9,18 +9,20 @@ This project used several components (sensors, shields, etc) and we tested them 
 
 The different sensors, boards, shields, features tested: 
 
-1. Temperature sensor DS18B20
-1. Humidity and temperature sensor SHT30-D
-1. CO2 sensor T6713
-1. Ethernet shield (inc. SD card and ISP breakout)
-1. Relay board DFR0144
-1. Current Sensor INA219
-1. Current probe SCT013
-1. Sending data to ThingSpeak
-1. 3x 12V-pumps
-1. Sending data to thingskeap
-1. Saving data to SD card
-1. Integrating everything together.
+	1. Temperature sensor DS18B20
+	1. Humidity and temperature sensor SHT30-D
+	1. CO2 sensor T6713
+	1. Ethernet shield (inc. SD card and ISP breakout)
+	1. Relay board DFR0144
+	1. Current Sensor INA219
+	1. Current probe SCT013
+	1. Sending data to ThingSpeak
+	1. 3x 12V-pumps
+	1. Sending data to thingskeap
+	1. Saving data to SD card
+	1. Webserver to get the file from the SD card
+	1. Using NTP for time stamps
+	1. Integrating everything together.
 
 The excel file shows the conclusions from the different tests. 
 
