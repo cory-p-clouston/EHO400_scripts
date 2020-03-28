@@ -17,14 +17,12 @@ The different sensors, boards, shields, features tested:
 	6. Current Sensor INA219
 	7. Current probe SCT013
 	8. Sending data to ThingSpeak
-	9. 3x 12V-pumps
+	9. 3x 12V-pumps NMP30
 	10. Sending data to thingskeap
 	11. Saving data to SD card
 	12. Webserver to get the file from the SD card
 	13. Using NTP for time stamps
 	14. Integrating everything together.
-
-The excel file shows the conclusions from the different tests. 
 
 Some things to keep in mind:
 * We had to upgrade from an Arduino UNO to an Arduino MEGA because the UNO did not have enough memory space for the program.
