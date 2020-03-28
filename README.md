@@ -1,6 +1,8 @@
 # EHO400
 An Arduino Mega-based project for monitoring of a mushroom growing lab.
 
+![Picture of EHO400](/Photos/IMG_0078.JPG)
+
 The key features are:
     
     Monitoring of temperature (DS18B20)
