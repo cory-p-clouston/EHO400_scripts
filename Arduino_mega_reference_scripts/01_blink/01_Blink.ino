@@ -1,5 +1,5 @@
 /*
-  Blink
+  Blink. Comes from the basic examples of arduino
 
   Turns an LED on for one second, then off for one second, repeatedly.
 

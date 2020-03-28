@@ -4,6 +4,7 @@
 // IMPORTANT: We cannot have twice the same sensor because their
 // I2C device IP address is fixed! 
 
+// Based on the example script from CO2 company
 
 #include <Wire.h> // Although Wire.h is part of the Ardunio GUI
 //library, this statement is still necessary

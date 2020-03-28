@@ -1,6 +1,5 @@
 /*
   Cory Paquet-Clouston: Integration 4 
-  Just trying to clean everything for Marc.
   Cory: merging script 29 and 22 together to have everything
   
 */

@@ -2,6 +2,8 @@
 
 #include "SHTSensor.h"
 
+// Script from Example of the library
+
 SHTSensor sht;
 // To use a specific sensor instead of probing the bus use this command:
 // SHTSensor sht(SHTSensor::SHT3X);

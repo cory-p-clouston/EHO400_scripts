@@ -1,10 +1,17 @@
 # Summary of Tests
 
+## DISCLAIMER! 
+
+ALL THE SCRIPTS ABOVE ARE BASED ON THE EXAMPLE SCRIPTS OF THE CORRESPONDING LIBRARY.
+
 ## Arduino IDE settings of every tests
 
 Board:	" Arduino / Genuino Mega or Mega 2560 " 
+
 Processor:	" ATmega2560 (Mega 2560)"
+
 Port:	" COM8 (Arduino / Genuino Mega or Mega 2560)"
+
 Programmer:	"ArduinoISP"
 
 ## 01_blink
@@ -469,5 +476,5 @@ There are several edge cases that are not taken into account (e.g. what if we lo
 **Library (ies) used:** ThingSpeak, Ethernet, SPI, SD, EthernetUdp, OneWire, DallasTemperature, Wire, SHTSensor, AdafruitINA219
 
 
-** END OF DOCUMENT**
+**END OF DOCUMENT**
 

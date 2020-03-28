@@ -8,7 +8,7 @@
  * Ethernet shield attached to pins 10, 11, 12, 13
  * Analog inputs attached to pins A0 through A5 (optional)
 
-Cory: Modified the example to disable the SD Card CS pin.
+ Modified the example to disable the SD Card CS pin.
  created 18 Dec 2009
  by David A. Mellis
  modified 9 Apr 2012
