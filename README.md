@@ -1,6 +1,8 @@
 # EHO400
 An Arduino Mega-based project for monitoring of a controlled environment lab.
 
+Project in partnership with ALTE Coop: https://altecoop.ca/ 
+
 ![Picture of EHO400](/Pictures/EHO400.png)
 
 # Summary
